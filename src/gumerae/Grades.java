@@ -1,17 +1,13 @@
 
 package gumerae;
 
-
-package Grades;
-
 public class Grades {
     private int id;
     private String name;
     private double p, m, pf, f;
-
-    // Constructor to initialize Grades
+    
     public Grades() {
-        // Default constructor
+        
     }
 
     public void addGrades(int sid, String sname, double sp, double sm, double spf, double sf) {
